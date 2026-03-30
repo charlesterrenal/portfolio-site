@@ -1,0 +1,15 @@
+# Metadata
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Future-proofing
+.env
+node_modules/
+dist/
+EOF
