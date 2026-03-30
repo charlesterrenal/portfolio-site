@@ -1,0 +1,29 @@
+# Charles Vincent P. Terrenal | Portfolio
+### Computer Engineering Student @ Polytechnic University of the Philippines (PUP)
+#### Network & Security Intern @ ST Telemedia Global Data Centres (STT GDC)
+
+Welcome to the source code for my personal portfolio site, hosted at **[charlesterrenal.com](https://charlesterrenal.com)**. This project showcases my journey in computer engineering, networking, and systems administration.
+
+---
+
+## About
+A minimalist, self-hosted portfolio built to showcase my technical journey, projects, and professional background as an aspiring **Network Engineer**.
+
+## Technical Stach:
+* **Frontend:** HTML & CSS
+* **Deployment:** Cloudflare, Nginx Proxy Manager,
+* **Environment:** Developed and managed on [**AHHS** (A Humble Home Server)](https://github.com/charlesterrenal/ahhs).
+
+## 📂 Project Structure
+* \`/images`: Images, resumes, and static files.
+* \`index.html\`: The main landing page.
+
+---
+
+## 📬 Contact
+* **Website:** [charlesterrenal.com](https://charlesterrenal.com)
+* **LinkedIn:** [linkedin.com/in/charlesterrenal](https://linkedin.com/in/charlesterrenal)
+* **Email:** contact@charlesterrenal.com
+
+---
+*Last updated: March 2026*
