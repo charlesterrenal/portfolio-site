@@ -15,6 +15,11 @@ body {
     height: 100%; 
 }
 
+.bento-card:hover {
+    border-color: #000000;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.35);
+}
+
 /* Techy Typography */
 .tech-name { 
     font-family: 'JetBrains Mono', monospace; 
@@ -36,6 +41,10 @@ body {
     gap: 14px; 
     margin-bottom: 2.5rem; 
     font-weight: 700; 
+    background: linear-gradient(90deg, #5b21b6 0%, #7c3aed 50%, #9333ea 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .icon-box { 
@@ -77,24 +86,30 @@ body {
 }
 
 /* Social Hover Colors */
-.hover-github:hover .icon-bw { filter: grayscale(0%) brightness(1); }
-.hover-facebook:hover .icon-bw { filter: grayscale(0%) brightness(1) !important; content: url('https://cdn.simpleicons.org/facebook/1877F2'); }
-.hover-instagram:hover .icon-bw { filter: grayscale(0%) brightness(1) !important; content: url('https://cdn.simpleicons.org/instagram/E4405F'); }
-.hover-youtube:hover .icon-bw { filter: grayscale(0%) brightness(1) !important; content: url('https://cdn.simpleicons.org/youtube/FF0000'); }
+.social-icon-only:hover {
+    border-color: #000000 !important;
+    background-color: #000000 !important;
+}
 
-.hover-linkedin:hover { color: #0077b5; border-color: #0077b5; }
+.social-icon-only:hover .icon-bw {
+    filter: brightness(0) invert(1);
+}
+
+.hover-linkedin:hover {
+    color: #000000;
+    border-color: #000000;
+    background-color: #ffffff;
+}
 
 /* Section Hovers */
 .hover-about:hover { 
-    border-color: #f97316; 
-    background-color: #fffaf5; 
-    box-shadow: 0 10px 30px -15px rgba(249, 115, 22, 0.3); 
+    border-color: #000000;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.35);
 }
 
 .hover-projects:hover { 
-    border-color: #2563eb; 
-    background-color: #f8faff; 
-    box-shadow: 0 10px 30px -15px rgba(37, 99, 235, 0.3); 
+    border-color: #000000;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.35);
 }
 
 /* NEW: FIXED Project Tag Formatting */
@@ -121,7 +136,7 @@ body {
 
 /* Project Repository Links */
 .project-title-link { text-decoration: none; color: inherit; }
-.project-title-link:hover h4 { text-decoration: underline; color: #0969da; }
+.project-title-link:hover h4 { text-decoration: underline; color: inherit; }
 
 /* Experience & History Inner Cards */
 .inner-item-card { 
@@ -139,6 +154,10 @@ body {
     border-color: #0969da; 
     background-color: #ffffff; 
 }
+
+.project-webdapp:hover .project-title-link h4 { color: #dc2626 !important; }
+.project-iotml:hover .project-title-link h4 { color: #2563eb !important; }
+.project-server:hover .project-title-link h4 { color: #059669 !important; }
 
 /* Base layout for ALL badges */
 .academic-badge, .cncp-badge, .aws-badge, .icpep-badge {
